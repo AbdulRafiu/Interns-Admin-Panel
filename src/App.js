@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+import Student from './components/Student';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Leadersboard</h1>
+      <Student name="Abdul Rafiu" university="MUET, Jamshoro" score={345} />
+      <Student name="Ali Hasan" university="NED, Karchi" score={340} />
+      <Student name="Sarang Joyo" university="NUST, Islamabad" score={334} />
+      <Student name="Salamat Ali" university="MUET, Jamshoro" score={289} />
     </div>
   );
 }
